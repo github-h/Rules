@@ -9,6 +9,7 @@ rules:
 - DOMAIN-SUFFIX,imdns.hpplay.cn,REJECT-DROP  #乐播投屏
 - DOMAIN-SUFFIX,sdkauth.hpplay.cn,REJECT-DROP  #乐播投屏广告
 - DOMAIN-SUFFIX,qun7.com,REJECT-DROP  #当贝后台数据收集
+- DOMAIN-SUFFIX,hezijia.com,REJECT-DROP  #当贝后台数据收集
 - DOMAIN-SUFFIX,me.xdrig.com,REJECT-DROP  #数据收集
 - DOMAIN-SUFFIX,zmapi.dangbei.net,REJECT-DROP  #当贝桌面官方后门
 - DOMAIN-SUFFIX,app-measurement.com,REJECT-DROP #谷歌数据收集
