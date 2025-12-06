@@ -601,7 +601,15 @@ payload:
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com
 
   # 魔百盒广告****************
-  - DOMAIN-SUFFIX,sdk-open-phone.getui.com
-  - DOMAIN-SUFFIX,imdns.hpplay.cn
-  - DOMAIN-SUFFIX,bfqsdktjapi.qun7.com
-  - DOMAIN-SUFFIX,cm-10-177.getui.com
+  - DOMAIN-SUFFIX,getui.com  #个推数据收集
+  - DOMAIN-SUFFIX,getui.net  #个推数据收集
+  - DOMAIN-SUFFIX,gepush.com  #个推数据收集
+  - DOMAIN-SUFFIX,imdns.hpplay.cn  #乐播投屏
+  - DOMAIN-SUFFIX,sdkauth.hpplay.cn  #乐播投屏广告
+  - DOMAIN-SUFFIX,qun7.com  #当贝后台数据收集
+  - DOMAIN-SUFFIX,me.xdrig.com  #数据收集
+  - DOMAIN-SUFFIX,zmapi.dangbei.net  #当贝桌面官方后门
+  - DOMAIN-SUFFIX,app-measurement.com #谷歌数据收集
+  - DOMAIN-SUFFIX,android.bugly.qq.com  #腾讯数据收集
+  - DOMAIN-SUFFIX,stat.funshion.net  #隐私收集
+  - DOMAIN-SUFFIX,ulogs.umeng.com  #友盟SDK
