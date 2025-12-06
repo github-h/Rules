@@ -599,3 +599,9 @@ payload:
   - DOMAIN-SUFFIX,go.10086.cn
   - DOMAIN-SUFFIX,hivedata.cc
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com
+
+  # 魔百盒广告****************
+  - DOMAIN-SUFFIX,sdk-open-phone.getui.com
+  - DOMAIN-SUFFIX,imdns.hpplay.cn
+  - DOMAIN-SUFFIX,bfqsdktjapi.qun7.com
+  - DOMAIN-SUFFIX,cm-10-177.getui.com
