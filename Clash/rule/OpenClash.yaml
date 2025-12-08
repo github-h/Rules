@@ -1,18 +1,26 @@
 rules:
-- PROCESS-NAME,tailscale,DIRECT #匹配路由主动进程(tailscale直连)
-- PROCESS-NAME,tailscaled,DIRECT #匹配路由守护进程(tailscaled直连)
+- PROCESS-NAME,tailscale,DIRECT  #匹配路由主动进程(tailscale直连)
+- PROCESS-NAME,tailscaled,DIRECT  #匹配路由守护进程(tailscaled直连)
 
 # 魔百盒广告****************
 - DOMAIN-SUFFIX,getui.com,REJECT-DROP  #个推数据收集
 - DOMAIN-SUFFIX,getui.net,REJECT-DROP  #个推数据收集
+- DOMAIN-SUFFIX,getui.cn,REJECT-DROP  #个推数据收集
 - DOMAIN-SUFFIX,gepush.com,REJECT-DROP  #个推数据收集
+
+- DOMAIN-SUFFIX,umeng.com,REJECT-DROP  #友盟SDK
+- DOMAIN-SUFFIX,umengcloud.com,REJECT-DROP  #友盟SDK
+
+- DOMAIN-SUFFIX,rp.hpplay.cn,REJECT-DROP  #乐播投屏广告
 - DOMAIN-SUFFIX,imdns.hpplay.cn,REJECT-DROP  #乐播投屏
 - DOMAIN-SUFFIX,sdkauth.hpplay.cn,REJECT-DROP  #乐播投屏广告
+
 - DOMAIN-SUFFIX,qun7.com,REJECT-DROP  #当贝后台数据收集
 - DOMAIN-SUFFIX,hezijia.com,REJECT-DROP  #当贝后台数据收集
-- DOMAIN-SUFFIX,me.xdrig.com,REJECT-DROP  #数据收集
 - DOMAIN-SUFFIX,zmapi.dangbei.net,REJECT-DROP  #当贝桌面官方后门
+
 - DOMAIN-SUFFIX,app-measurement.com,REJECT-DROP #谷歌数据收集
-- DOMAIN-SUFFIX,android.bugly.qq.com,REJECT-DROP  #腾讯数据收集
+- DOMAIN-SUFFIX,crashlytics.com,REJECT-DROP #谷歌数据收集
+- DOMAIN-SUFFIX,android.bugly.qq.com,REJECT-DROP #QQ数据收集
 - DOMAIN-SUFFIX,stat.funshion.net,REJECT-DROP  #隐私收集
-- DOMAIN-SUFFIX,ulogs.umeng.com,REJECT-DROP  #友盟SDK
+- DOMAIN-SUFFIX,xdrig.com,REJECT-DROP  #数据收集
