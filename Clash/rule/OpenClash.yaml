@@ -18,9 +18,12 @@ rules:
 - DOMAIN-SUFFIX,qun7.com,REJECT-DROP  #当贝后台数据收集
 - DOMAIN-SUFFIX,hezijia.com,REJECT-DROP  #当贝后台数据收集
 - DOMAIN-SUFFIX,zmapi.dangbei.net,REJECT-DROP  #当贝桌面官方后门
+- DOMAIN-SUFFIX,tymcdn.com,REJECT-DROP  #当贝后台数据收集
+- DOMAIN-SUFFIX,dbkan.com,REJECT-DROP  #当贝后台数据收集
 
 - DOMAIN-SUFFIX,app-measurement.com,REJECT-DROP #谷歌数据收集
 - DOMAIN-SUFFIX,crashlytics.com,REJECT-DROP #谷歌数据收集
 - DOMAIN-SUFFIX,android.bugly.qq.com,REJECT-DROP #QQ数据收集
 - DOMAIN-SUFFIX,stat.funshion.net,REJECT-DROP  #隐私收集
 - DOMAIN-SUFFIX,xdrig.com,REJECT-DROP  #数据收集
+- DOMAIN-SUFFIX,xmobileservice.cn,REJECT-DROP  #卓信数据收集
