@@ -27,3 +27,8 @@ rules:
 - DOMAIN-SUFFIX,stat.funshion.net,REJECT-DROP  #隐私收集
 - DOMAIN-SUFFIX,xdrig.com,REJECT-DROP  #数据收集
 - DOMAIN-SUFFIX,xmobileservice.cn,REJECT-DROP  #卓信数据收集
+
+# slimBOXtv广告****************
+- DOMAIN-SUFFIX,weesunday.com,REJECT-DROP  #隐私收集
+- DOMAIN-SUFFIX,keeflys.com,REJECT-DROP  #EmotnUI桌面隐私收集
+- DOMAIN-SUFFIX,zmapi.dangsfly.com,REJECT-DROP  #当贝隐私收集
