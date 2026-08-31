@@ -2,6 +2,8 @@ rules:
 - PROCESS-NAME,tailscale,DIRECT  #匹配路由主动进程(tailscale直连)
 - PROCESS-NAME,tailscaled,DIRECT  #匹配路由守护进程(tailscaled直连)
 
+- DOMAIN-SUFFIX,ntp1.aliyun.com,DIRECT #解决盒子时间同步问题
+
 # 魔百盒广告****************
 - DOMAIN-SUFFIX,getui.com,REJECT-DROP  #个推数据收集
 - DOMAIN-SUFFIX,getui.net,REJECT-DROP  #个推数据收集
